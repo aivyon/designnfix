@@ -1,12 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="he" dir="rtl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DesignnFix</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DesignnFix – תכנון • עיצוב • תיקונים</title>
+  <meta name="description" content="DesignnFix – אדריכלות קלה, עיצוב פנים, שיפוצים ותיקוני בית. תוספות חדרים, מטבחים, גינות ותחזוקה." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg:#0f172a; --card:#111827; --muted:#94a3b8; --accent:#22c55e; --text:#f8fafc; --ring:#22c55e33; }
+    *{box-sizing:border-box}
+    html,body{margin:0;height:100%;font-family:'Rubik',system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:linear-gradient(180deg,#0b1226 0%, #0f172a 60%, #0b1226 100%);color:var(--text)}
+    a{color:inherit;text-decoration:none}
+    .container{max-width:1100px;margin:0 auto;padding:24px}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .logo{font-weight:700;letter-spacing:.5px}
+    .badge{padding:6px 10px;border:1px solid #ffffff22;border-radius:999px;font-size:12px;color:var(--muted)}
+    .hero{display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:center;margin-top:40px}
+    .card{background:linear-gradient(180deg,#0e152a,#0b1226);border:1px solid #FFFFFF10;border-radius:20px;padding:22px}
+    .title{font-size:40px;line-height:1.15;margin:0 0 10px}
+    .subtitle{color:var(--muted);font-size:18px;margin:0 0 18px}
+    .cta{display:flex;gap:12px;flex-wrap:wrap}
+    .btn{padding:12px 18px;border-radius:14px;border:1px solid #ffffff22;background:#0b1226;transition:.2s;cursor:pointer}
+    .btn:hover{transform:translateY(-1px);border-color:#ffffff44}
+    .btn.primary{background:var(--accent);color:#0a0f1f;border-color:transparent;font-weight:600}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:26px}
+    .service{border:1px solid #FFFFFF12;border-radius:16px;padding:18px;background:#0b1226}
+    .service h3{margin:0 0 6px;font-size:18px}
+    .service p{margin:0;color:var(--muted);font-size:14px}
+    .footer{margin:40px 0 10px;color:var(--muted);text-align:center;font-size:13px}
+    .illus{aspect-ratio:4/3;border-radius:18px;border:1px dashed #ffffff22;display:grid;place-items:center;color:#94a3b8;background:#0b1226}
+    .contact{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+    .field{display:grid;gap:6px}
+    input,textarea{width:100%;padding:12px 14px;border-radius:12px;border:1px solid #FFFFFF22;background:#0b1226;color:#e5e7eb;outline:none}
+    input:focus,textarea:focus{box-shadow:0 0 0 4px var(--ring);border-color:#FFFFFF44}
+    @media (max-width:900px){.hero{grid-template-columns:1fr}.grid{grid-template-columns:1fr 1fr}.contact{grid-template-columns:1fr}}
+    @media (max-width:560px){.title{font-size:32px}.grid{grid-template-columns:1fr}}
+  </style>
 </head>
-<body style="font-family: sans-serif; text-align: center; padding-top: 60px;">
-  <h1>Welcome to DesignnFix!</h1>
-  <p>Website is under construction 🚧</p>
+<body>
+  <div class="container">
+    <div class="nav">
+      <div class="logo">DesignnFix</div>
+      <div class="badge">תכנון • עיצוב • תיקונים</div>
+    </div>
+
+    <section class="hero">
+      <div class="card">
+        <h1 class="title">עיצוב ושדרוג חכם לבית ולחצר</h1>
+        <p class="subtitle">תוספת חדרים, מטבחים, חלוקה מחדש של חלל, תיקונים קטנים ותכנון גינות. ניסיון באדריכלות, עבודות יד וגינון.</p>
+        <div class="cta">
+          <a class="btn primary" href="https://wa.me/972501234567" target="_blank" rel="noopener">שלחו וואטסאפ</a>
+          <a class="btn" href="tel:+972501234567">התקשרו עכשיו</a>
+          <a class="btn" href="#contact">בקשת הצעת מחיר</a>
+        </div>
+        <div class="grid">
+          <div class="service">
+            <h3>אדריכלות קלה</h3>
+            <p>היתכנות, תכנון ראשוני ותוכניות עבודה לתוספות ושינויים.</p>
+          </div>
+          <div class="service">
+            <h3>עיצוב פנים</h3>
+            <p>חלוקה חכמה של חללים, מטבחים, פתרונות אחסון ותאורה.</p>
+          </div>
+          <div class="service">
+            <h3>תיקונים ושיפוצים</h3>
+            <p>תיקוני חשמל קלים, נגרות, צבע, התקנות והרכבות.</p>
+          </div>
+          <div class="service">
+            <h3>תכנון גינה</h3>
+            <p>בחירת צמחייה, השקיה, שבילים ופינות ישיבה.</p>
+          </div>
+          <div class="service">
+            <h3>ייעוץ בבית</h3>
+            <p>פגישה אחת שמסדרת כיוון ברור ושקט נפשי.</p>
+          </div>
+          <div class="service">
+            <h3>לוח זמנים ועלויות</h3>
+            <p>תכנון מסודר שמונע הפתעות ומצמצם עלויות.</p>
+          </div>
+        </div>
+      </div>
+      <div class="illus">תמונה/קולאז׳ פרויקטים<br> (אפשר להחליף בהמשך)</div>
+    </section>
+
+    <section id="contact" class="card" style="margin-top:24px">
+      <h2 style="margin:0 0 8px;font-size:22px">יצירת קשר</h2>
+      <p class="subtitle" style="margin:0 0 16px">מלאו פרטים ונחזור אליכם בהקדם.</p>
+      <form class="contact" action="https://formspree.io/f/your-id" method="POST">
+        <div class="field">
+          <label>שם מלא</label>
+          <input name="name" placeholder="שם" required>
+        </div>
+        <div class="field">
+          <label>טלפון</label>
+          <input name="phone" placeholder="050-0000000" required>
+        </div>
+        <div class="field" style="grid-column:1/-1">
+          <label>מה תרצו לעשות?</label>
+          <textarea name="message" rows="4" placeholder="תוספת חדר / עיצוב מטבח / תיקון מנורה..." required></textarea>
+        </div>
+        <button class="btn primary" type="submit">שלחו</button>
+      </form>
+    </section>
+
+    <div class="footer">© <span id="y"></span> DesignnFix • כל הזכויות שמורות</div>
+  </div>
+  <script>document.getElementById('y').textContent=new Date().getFullYear();</script>
 </body>
 </html>
